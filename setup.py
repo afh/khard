@@ -37,7 +37,7 @@ setup(
         'unidecode',
         'vobject'
     ],
-    extras_require={'doc': ['sphinx', 'sphinx-autoapi',
+    extras_require={'doc': ['sphinx', 'sphinx-argparse', 'sphinx-autoapi',
                             'sphinx-autodoc-typehints']},
     use_scm_version={'write_to': 'khard/version.py'},
     setup_requires=['setuptools_scm'],

@@ -495,3 +495,8 @@ def init(argv: List[str]) -> Tuple[argparse.Namespace, Config]:
         args.action = Actions.get_action(args.action)
 
     return args, merge_args_into_config(args, conf)
+
+
+def _sphinxarg_helper():
+    """Helper function to return the correct argument parser for the docs."""
+    return create_parsers()[1]
